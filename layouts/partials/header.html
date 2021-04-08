@@ -1,0 +1,12 @@
+<header id="header" {{- if .IsHome -}}class="alt"{{- end -}}>
+  <h1>{{ with .Site.Data.globalheader.title }}{{ . | markdownify }}{{else}}{{ .Site.Title }}{{end}}</h1>
+  <nav id="nav">
+      <ul>
+          <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+          {{ $button := .Site.Data.globalheader.button }}
+          {{ if $button.enable }}
+          <li><a target="_blank" href="{{ $button.link }}" class="button">{{ $button.title }}</a></li>
+          {{ end }}
+      </ul>
+  </nav>
+</header>

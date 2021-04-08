@@ -1,0 +1,39 @@
+####### This is an EXAMPLE config file!!
+####### Changes made here will not effect demo site
+
+languageCode = "en-us"
+title = "VX SPIKE"
+baseURL = "https://example.com"
+theme = "hugo-html5up-alpha"
+disqusShortname = ""
+
+[params]
+  description = "Once you have eliminated the impossible, whatever remains, however improbable, must be the truth."
+  images = ["images/pic01.jpg"]
+  author = ""
+  copyright = ""
+  design = ""
+  mainSections = ["blog"]
+
+### Footer Social Media Links ###
+
+[[params.share]]
+title = "twitter"
+icon = "fa-twitter"
+link = "https://twitter.com/vxcompany"
+
+[[params.share]]
+title = "linkedin"
+icon = "fa-linkedin"
+link = "https://www.linkedin.com/company/vx-company"
+
+### For Pages the .RelPermalink must match the menu .URL
+### For sections the name/directory must match the menu .Identifier
+#[menu]
+#  [[menu.main]]
+#    identifier = "generic"
+#    name = "FAQ"
+#    url = "/generic/"
+#    weight = 10
+
+ 

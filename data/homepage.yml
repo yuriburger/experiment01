@@ -1,0 +1,57 @@
+### Banner ###
+banner:
+  enable: true
+  image: #default is 'images/banner.jpg'
+  title: "VX SPIKE"
+  content: "" # Change this if you want something other then the site description
+  buttons:
+    - title: "Schrijf je in"
+      link: "https://forms.office.com/r/LibYZqgL2R"
+      class: "primary"
+    - title: "Heb je een onderwerp?"
+      link: "https://forms.office.com/r/4Q61fZcQBh"
+
+### Highlight ###
+highlight:
+  enable: true
+  header: "VX SPIKE is het innovatie en discussie platform van VX Company"
+  content: "4x per jaar organiseren we een Spike waar we gezamelijk 2 onderwerpen uit ons vakgebied de revu laten passeren. Het format: zeepkist (met af en toe een gastspreker)."
+  image: "images/pic01.png"
+
+### Features ###
+features:
+  enable: true
+  rows:
+    - items:
+      - title: "Online"
+        icon: "fa-globe"
+        accent: "accent2" #accent values are 1-8
+        content: "Online, zodat we zoveel mogelijk mensen in de gelegenheid stellen er bij te kunnen zijn."
+      - title: "Agenda"
+        icon: "fa-clock"
+        accent: "accent3" #accent values are 1-8
+        content: "2 onderwerpen, elk een half uur. We kiezen de onwerwerpen zelf, steeds voor de volgende editie en ze zijn dus ook vooraf bekend!"
+    - items:
+        - title: "Wanneer?"
+          icon: "fa-calendar-alt"
+          accent: "accent4" #accent values are 1-8
+          content: "Ongeveer elke 3 maanden (gespreksonderwerpen kun je overigens altijd aandragen)."
+        - title: "Onderwerpen"
+          icon: "fa-lightbulb"
+          accent: "accent5" #accent values are 1-8
+          content: "Alles wat met ons vak te maken heeft is geschikt, dus zeker niet alleen maar technische onderwerpen. Heb je zelf een idee? Laat het dan hier achter:"
+          link: https://forms.office.com/r/4Q61fZcQBh
+
+### Blog ###
+blog:
+  enable: true
+  # Leave header text blank to remove entire <section>
+  header: "Edities"
+  buttonText: "Lees meer"
+  postCount: 2
+
+### Call to Action ###
+cta:
+  enable: true
+  header: "Nieuwsbrief"
+  content: "Werk je niet bij VX Company, maar wil je wel op de hoogte blijven van nieuwe ontwikkelingen op software gebied in Nederland? Schrijf je dan in voor de nieuwsbrief!"
