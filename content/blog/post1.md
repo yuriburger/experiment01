@@ -1,6 +1,6 @@
 +++
 title = 'VX SPIKE #1 xx-x-2021'
-slug = 'post2'
+slug = 'post1'
 image = 'images/pic01.png'
 date = "2021-03-18T00:00:00"
 description = 'De eerste editie van de vernieuwde VX SPIKE'
